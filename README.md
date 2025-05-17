@@ -16,7 +16,7 @@
 
 ---
 
-## 🗄️ 1. Database Setup
+##  1. Database Setup
 
 ### Create Table
 
@@ -37,7 +37,7 @@ CREATE TABLE retail_sales (
 
 ---
 
-## 🔍 2. Check the Data
+##  2. Check the Data
 
 ```sql
 SELECT * FROM retail_sales LIMIT 10;
@@ -45,7 +45,7 @@ SELECT * FROM retail_sales LIMIT 10;
 
 ---
 
-## 🧹 3. Data Exploration and Cleaning
+##  3. Data Exploration and Cleaning
 
 ### A. Data Cleaning
 
@@ -109,7 +109,7 @@ SELECT COUNT(DISTINCT category) FROM retail_sales;
 
 ---
 
-## 📊 4. Data Analysis and Business Questions
+##  4. Data Analysis and Business Questions
 
 ### Q1. Sales on '2022-11-05'
 
@@ -190,7 +190,7 @@ ORDER BY sale_month;
 
 ---
 
-### Q8. Top 5 Customers by Total Sales
+### Q8. Top 5 Customers by total Sales
 
 ```sql
 SELECT customer_id, SUM(total_sale) AS total_sales
@@ -228,7 +228,7 @@ GROUP BY time_period;
 
 ---
 
-### Q11. Customers Who Purchased from All Categories
+### Q11. Customers Who Purchased from all Categories
 
 **Method 1: Using INTERSECT**
 
@@ -260,7 +260,7 @@ FROM (
 
 * `SQL-Retail Sales Analysis_utf.csv` - Source dataset
 * `README.md` - Project documentation
-* SQL scripts (if separated)
+* SQL file 
 
 ---
 
