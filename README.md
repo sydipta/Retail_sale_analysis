@@ -1,8 +1,3 @@
-Sure! Below is the clean and properly formatted **Markdown** version of your `README.md` file. You can directly copy and paste this into your GitHub README.
-
----
-
-````markdown
 # 🛍️ Retail Sales Analysis
 
 ## 📌 Project Overview
@@ -274,7 +269,5 @@ FROM (
 This project showcases how to explore and clean data, perform SQL-based analysis, and extract meaningful insights to support retail business decision-making.
 
 ---
-
-```
 
 
